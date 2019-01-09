@@ -1,5 +1,5 @@
 # Notebook Set 2
-In this notebook set, you'll learn the basics of data wrangling in Python (`part-1`), and then complete an exploratory analysis of health burden data in Python (`part-2`) and R (`part-3`).
+In this notebook set, you'll learn the basics of exploratory data analysis (EDA) using the `matplotlib` package. I strongly suggest you use [this book chapter](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) as a reference. Below is information on the data itself -- see specific instructions in the `01-eda.ipynb` file.
 
 ## Health Burden
 
@@ -46,10 +46,7 @@ For each variable (column) of interest, answer the following questions. You may 
 In this section, you should investigate how each (risk-variable) varies by **age group**. More specifically, consider if the distribution of each variable of interest (smoking, alcohol use, etc.) is consistent across age-groups.
 
 ## Univariate analysis (by sex)
-In this section, you should investigate how each (risk-variable) varies by **sex group**. More specifically, consider if the distribution of each variable of interest (smoking, alcohol use, etc.) is consistent across sex-groups. Depending on your procedure, you may need to **reshape your data**.
-
-## Univariate analysis (by country)
-In this section, you should investigate how each (risk-variable) varies by **country**. Given the number of countries present in the dataset, I suggest that you aggregate your data by region. In order to do this, you'll need to **convert death rates to deaths** using the `pop` column.
+In this section, you should investigate how each (risk-variable) varies by **sex group**. More specifically, consider if the distribution of each variable of interest (smoking, alcohol use, etc.) is consistent across sex-groups. Depending on your procedure, you may need to create subsets of your data, or reshape it.
 
 ## Bivariate analysis
-In this section, you should compare risks-variables to one another to see how they co-vary. Use simple statistical tests (i.e., **correlation**) and visualization as you see fit. 
+In this section, you should compare risks-variables to one another to see how they co-vary. See the notebook for further instruction.
